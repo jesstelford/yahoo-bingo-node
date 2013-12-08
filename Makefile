@@ -1,4 +1,4 @@
-default: dev
+default: build
 
 SRCDIR = src
 LIBDIR = lib
