@@ -1,3 +1,7 @@
-project-name-*.tgz
 test/fixtures
-dist
+dist/bundle.js
+lib
+node_modules
+*.swp
+*.vim
+tags

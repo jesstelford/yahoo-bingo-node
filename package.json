@@ -1,20 +1,20 @@
 {
-  "name": "project-name",
+  "name": "yahoo-bingo",
   "version": "0.0.0-dev",
-  "description": "Project description",
-  "homepage": "https://github.com/github-username/project-name",
+  "description": "Playing Bingo with Node and Yahoo! to win me some prizes.",
+  "homepage": "https://github.com/jesstelford/yahoo-bingo",
   "keywords": [],
   "author": {
-    "name": "Your Name",
-    "email": "your@email"
+    "name": "Jess Telford",
+    "email": "jess+yahoobingo@jes.st"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/github-username/project-name"
+    "url": "git://github.com/jesstelford/yahoo-bingo"
   },
-  "bugs": "https://github.com/github-username/project-name/issues",
+  "bugs": "https://github.com/jesstelford/yahoo-bingo/issues",
   "engines": {
-    "node": "0.8.x || 0.9.x || 0.10.x"
+    "node": "0.10.x"
   },
   "main": "lib/index.js",
   "directories": {
@@ -35,8 +35,8 @@
   },
   "licenses": [
     {
-      "type": "BSD",
-      "url": "https://github.com/github-username/project-name/blob/master/LICENSE"
+      "type": "FreeBSD",
+      "url": "https://github.com/jesstelford/yahoo-bingo/blob/master/LICENSE"
     }
   ]
 }
