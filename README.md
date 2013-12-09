@@ -1,32 +1,43 @@
-# Project Name
+# Yahoo! Bingo Node project
 
-Project Description
+Playing Bingo with Node and Yahoo! to win me some prizes.
 
+## Setup
 
-
-## Install
-
-    npm install --save project-name
-
-
+```bash
+$ git clone https://github.com/jesstelford/yahoo-bingo-node.git
+$ cd yahoo-bingo-node
+$ npm install
+$ make
+```
 
 ## Usage
 
-### CLI
+```bash
+$ node lib/index.js
+```
 
-    $ bin/binary-name --help
+## About
 
-#### Example:
+### Motivation
 
-### Module Interface
+During Node Summit SF 2013
+([#NodeSummit](https://twitter.com/search?q=%23nodesummit)), Yahoo! promoted a
+competition to win some prizes by interacting with their node server via web
+sockets. [More info](https://yahoobingo.herokuapp.com).
 
-#### `exportedFunction(args)` → Return Value
-Description
+### How
 
+This project is built using:
 
+ * node.js 0.10.x
+ * socket.io-client
+ * CoffeeScript Redux
+ * Underscore JS
 
-## Examples
+Originally forked from [Michael Ficarra](https://github.com/michaelficarra)'s [coffeescript-project](https://github.com/michaelficarra/coffeescript-project), with
+additional help from [Jess Telford](https://github.com/jesstelford)'s [coffee-boilerplate](https://github.com/jesstelford/coffee-boilerplate).
 
-### CLI example
+## License
 
-### Module Example
+FreeBSD. See [`LICENSE`](LICENSE) for more details.
